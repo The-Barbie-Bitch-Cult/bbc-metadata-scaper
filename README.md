@@ -7,7 +7,8 @@ Perfect for researchers, investigators, journalists, curious minds, and anyone w
 
 # Why EXIF & Metadata Actually Matter
 
-Every photo, PDF, Office doc, and video you upload carries a hidden passenger manifest. That “cute selfie” or “professional headshot” often contains:GPS coordinates (yes, really — your phone helpfully tagged the exact spot you took it)
+Every photo, PDF, Office doc, and video you upload carries a hidden passenger manifest. That “cute selfie” or “professional headshot” often contains:
+* GPS coordinates (yes, really — your phone helpfully tagged the exact spot you took it)
 * Device make/model (iPhone 16 Pro Max, Canon EOS R5, etc.)
 * Timestamp (down to the second, including original creation time even if the file was renamed)
 * Software used (reveals editing apps, Photoshop versions, even phone apps)
