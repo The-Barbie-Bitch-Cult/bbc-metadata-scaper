@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "site-exif"
+version = "0.1.0"
+description = "Crawl a website and export metadata found in same-site media and documents."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Local" }]
+license = { text = "MIT" }
+keywords = ["exif", "crawler", "metadata", "csv"]
+classifiers = [
+  "Environment :: Console",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Multimedia :: Graphics",
+  "Topic :: Utilities",
+]
+
+[project.scripts]
+site-exif = "site_exif.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
